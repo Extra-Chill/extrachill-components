@@ -146,7 +146,7 @@
     "lint": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
     "test": "npm run build && npm run test:consumer && node --test test/*.test.mjs",
-    "test:consumer": "tsc --project test/tsconfig.json",
+    "test:consumer": "tsc --project fixtures/tsconfig.json",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
